@@ -1,0 +1,41 @@
+//
+// <div class="c-card">
+//     <div class="c-card__figure">
+//         <img ...>
+//     </div>
+//     <div class="c-card__body">
+//         ...
+//     </div>
+//     <div class="c-card__action">
+//         <a href="#">...</a>
+//     </div>
+// </div>
+//
+.{bs-prefix}c-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .1),
+              0 1px 1px 0 rgba(0, 0, 0, .05);
+  background-color: #fff;
+
+  &__figure {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    > img {
+      vertical-align: top;
+      width: 100%;
+    }
+  }
+
+  &__body {
+    padding: (bs-base-line-height / 2) bs-base-line-height;
+    flex: 1 0 auto;
+  }
+
+  &__action {
+    border-top: 1px solid bs-lighter(bs-color-gray);
+    padding: (bs-base-line-height / 2) bs-base-line-height;
+  }
+}
