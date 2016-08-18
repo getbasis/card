@@ -6,8 +6,8 @@ This is a css module for The Basis.
 * Documents : http://getbasis.github.io/
 
 ## Get Started
-1. `$ npm install sass-basis`
-1. `$ npm install sass-basis-card`
+1. `$ npm install getbasis`
+1. `$ npm install getbasis-card`
 1. `@import 'node_modules/getbasis/src/stylus/basis';`
 1. `@import 'node_modules/getbasis-card/src/stylus/object/component/card';`
 
